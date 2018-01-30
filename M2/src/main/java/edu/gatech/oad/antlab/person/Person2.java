@@ -31,7 +31,7 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	//added the ability to scrambel the work using Random object
+	//added the ability to scramble the work using Random object
 	  Random rand = new Random();
 	  char scramble[] = input.toCharArray();
 
